@@ -75,6 +75,24 @@ function Products() {
           image: '/images/macrame-wall-hanging-shelf-for-home-decor-item.webp',
           flipkartLink: 'https://fktr.in/8Hj8CuJ',
           description: 'Combine style with function. This macrame shelf brings boho charm while giving you real storage. Display small plants, candles, or books for a curated, aesthetic look. Great for small apartments.'
+        },
+        {
+          id: 10,
+          name: 'Metal Wall Mirror',
+          price: 'Budget-friendly',
+          rating: 4.6,
+          image: '/images/70-40-1-metal-wall-minior-nifsa-store.webp',
+          flipkartLink: 'https://fktr.in/Zad3IfM',
+          description: 'Instantly brighten your space with this sleek metal wall mirror. Perfect for reflecting light and making rooms feel more spacious and airy. Works beautifully in modern homes, bedrooms, and entryways. Easy installation, rental-approved.'
+        },
+        {
+          id: 11,
+          name: 'Supremecraft Wall Art Panel',
+          price: 'Under ₹1500',
+          rating: 4.7,
+          image: '/images/10-3-scf-pt-17-supremecraft.webp',
+          flipkartLink: 'https://fktr.in/A728j5f',
+          description: 'Add sculptural dimension to your walls with this artistic wall panel. Creates a statement focal point that transforms plain walls into gallery-quality design. Perfect for modern, minimalist, and eclectic home aesthetics.'
         }
       ]
     },
