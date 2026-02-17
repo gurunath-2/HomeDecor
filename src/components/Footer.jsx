@@ -7,25 +7,25 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>About Us</h3>
-            <p>Your trusted destination for premium home decor and furniture products from Flipkart.</p>
+            <h3>Your Aesthetic Home Starts Here</h3>
+            <p>Curated home decor inspiration to transform your space into a cozy, beautiful sanctuary. All products available on Flipkart.</p>
           </div>
           <div className="footer-section">
-            <h3>Quick Links</h3>
+            <h3>Explore</h3>
             <ul>
               <li><a href="#home">Home</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a target="_blank" rel="noopener noreferrer" href="https://www.flipkart.com">Visit Flipkart</a></li>
+              <li><a href="#products">Shop by Category</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.flipkart.com">Buy on Flipkart</a></li>
             </ul>
           </div>
           <div className="footer-section">
-            <h3>Support</h3>
-            <p>For product details and purchases, visit Flipkart directly.</p>
-            <p><a target="_blank" rel="noopener noreferrer" href="https://www.flipkart.com">www.flipkart.com</a></p>
+            <h3>Trust & Transparency</h3>
+            <p>We partner with Flipkart to bring you verified, affordable home decor products.</p>
+            <p style={{fontSize: '0.85rem', marginTop: '0.8rem', color: '#999'}}>Affiliate links: We earn a small commission when you purchase through our links at no extra cost to you.</p>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Home Decor Collection. Products displayed are from Flipkart.</p>
+          <p>&copy; 2026 Home Decor Collection. Curated products from Flipkart. <span style={{fontSize: '0.85rem'}}>| Affiliate disclosure: We use affiliate links.</span></p>
         </div>
       </div>
     </footer>

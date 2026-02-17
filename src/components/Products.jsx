@@ -2,128 +2,147 @@ import React from 'react';
 import './Products.css';
 
 function Products() {
-  const products = [
+  const categories = [
     {
-      id: 1,
-      name: 'Glass Vase - 14" Removal',
-      category: 'Home Decor',
-      price: 'View on Flipkart',
-      rating: 4.7,
-      image: '/images/14-removal-glass-vase-awh-8-original.webp',
-      flipkartLink: 'https://fktr.in/shqSQt7',
-      description: 'Beautiful glass vase for flower arrangements'
+      categoryName: 'Living Room Decor',
+      categoryId: 'living-room',
+      products: [
+        {
+          id: 1,
+          name: 'Classic Glass Vase - 14"',
+          price: 'Budget-friendly',
+          rating: 4.7,
+          image: '/images/14-removal-glass-vase-awh-8-original.webp',
+          flipkartLink: 'https://fktr.in/shqSQt7',
+          description: 'Add timeless elegance to your shelf or table. This clear glass vase brings a fresh, airy feel to any living room and makes fresh flowers feel even more special. Perfect for small homes and modern apartments.'
+        },
+        {
+          id: 2,
+          name: 'Moon Vase with Flowers',
+          price: 'Under ₹1500',
+          rating: 4.8,
+          image: '/images/4-moon-vase-flowers-pot-glaxy-crafts.webp',
+          flipkartLink: 'https://fktr.in/Rz5ZBvj',
+          description: 'Create an Instagram-worthy moment in your living room. This unique moon-shaped vase instantly adds personality and warmth. Ideal for rentals—no wall installation needed. A cozy, modern focal point.'
+        },
+        {
+          id: 7,
+          name: 'Swan Couples Statue',
+          price: 'Budget-friendly',
+          rating: 4.8,
+          image: '/images/Swan-Couples-Statue.webp',
+          flipkartLink: 'https://fktr.in/mO5v1ko',
+          description: 'Bring peaceful elegance to your home with this graceful swan statue. Perfect for creating a sophisticated, calming vibe in your living room or bedroom. Adds premium feel without the premium price.'
+        }
+      ]
     },
     {
-      id: 2,
-      name: 'Moon Vase with Flowers',
-      category: 'Decor',
-      price: 'View on Flipkart',
-      rating: 4.8,
-      image: '/images/4-moon-vase-flowers-pot-glaxy-crafts.webp',
-      flipkartLink: 'https://fktr.in/Rz5ZBvj',
-      description: 'Elegant moon-shaped vase with flower pot'
+      categoryName: 'Wall Decor & Art',
+      categoryId: 'wall-decor',
+      products: [
+        {
+          id: 3,
+          name: 'Artificial Hanging Bird',
+          price: 'Under ₹1000',
+          rating: 4.6,
+          image: '/images/Artificial-Hanging-Bird.webp',
+          flipkartLink: 'https://fktr.in/O0z2kSG',
+          description: 'Turn bare walls into a nature-inspired corner. This lifelike hanging bird adds dimension and charm instantly. Perfect for small walls and rentals—easy installation, zero damage.'
+        },
+        {
+          id: 4,
+          name: 'Dream Catcher',
+          price: 'Under ₹800',
+          rating: 4.9,
+          image: '/images/DULI-DREAM-catcher.webp',
+          flipkartLink: 'https://fktr.in/cbJawaJ',
+          description: 'Create a dreamy, bohemian vibe in any room. This handmade dream catcher brings softness and intention to your walls. Works beautifully above beds or in cozy reading nooks. Rental-friendly decor.'
+        },
+        {
+          id: 5,
+          name: 'Butterfly 3D Metal Stickers',
+          price: 'Under ₹500',
+          rating: 4.5,
+          image: '/images/large-butterfly-3d-metal-stickers.webp',
+          flipkartLink: 'https://fktr.in/Tx80Ei6',
+          description: 'Add playful dimension to your walls instantly. These 3D metal butterflies create depth and movement without looking cluttered. Perfect for hallways, kids\' rooms, and adding life to plain spaces.'
+        },
+        {
+          id: 6,
+          name: 'Macrame Wall Hanging Shelf',
+          price: 'Under ₹2000',
+          rating: 4.7,
+          image: '/images/macrame-wall-hanging-shelf-for-home-decor-item.webp',
+          flipkartLink: 'https://fktr.in/8Hj8CuJ',
+          description: 'Combine style with function. This macrame shelf brings boho charm while giving you real storage. Display small plants, candles, or books for a curated, aesthetic look. Great for small apartments.'
+        }
+      ]
     },
     {
-      id: 3,
-      name: 'Artificial Hanging Bird',
-      category: 'Wall Decor',
-      price: 'View on Flipkart',
-      rating: 4.6,
-      image: '/images/Artificial-Hanging-Bird.webp',
-      flipkartLink: 'https://fktr.in/O0z2kSG',
-      description: 'Realistic artificial bird for indoor decoration'
+      categoryName: 'Statement Decor Pieces',
+      categoryId: 'statement-pieces',
+      products: [
+        {
+          id: 8,
+          name: 'Feng Shui Crystal Globe',
+          price: 'Budget-friendly',
+          rating: 4.7,
+          image: '/images/15-10-feng-shui-crystal-globe-with-golden-stand.webp',
+          flipkartLink: 'https://fktr.in/Ve0eBWS',
+          description: 'Bring balance and positive energy to your workspace or shelf. This stunning crystal globe with golden stand feels premium and purposeful. A conversation-starter that costs less than you\'d expect.'
+        }
+      ]
     },
     {
-      id: 4,
-      name: 'Dream Catcher',
-      category: 'Wall Decor',
-      price: 'View on Flipkart',
-      rating: 4.9,
-      image: '/images/DULI-DREAM-catcher.webp',
-      flipkartLink: 'https://fktr.in/cbJawaJ',
-      description: 'Beautiful handmade dream catcher'
-    },
-    {
-      id: 5,
-      name: 'Butterfly 3D Metal Stickers',
-      category: 'Wall Decor',
-      price: 'View on Flipkart',
-      rating: 4.5,
-      image: '/images/large-butterfly-3d-metal-stickers.webp',
-      flipkartLink: 'https://fktr.in/Tx80Ei6',
-      description: 'Large 3D butterfly metal wall stickers'
-    },
-    {
-      id: 6,
-      name: 'Macrame Wall Hanging Shelf',
-      category: 'Furniture',
-      price: 'View on Flipkart',
-      rating: 4.7,
-      image: '/images/macrame-wall-hanging-shelf-for-home-decor-item.webp',
-      flipkartLink: 'https://fktr.in/8Hj8CuJ',
-      description: 'Stylish macrame wall shelf for home display'
-    },
-    {
-      id: 7,
-      name: 'Swan Couples Statue',
-      category: 'Decor',
-      price: 'View on Flipkart',
-      rating: 4.8,
-      image: '/images/Swan-Couples-Statue.webp',
-      flipkartLink: 'https://fktr.in/mO5v1ko',
-      description: 'Elegant swan couples decorative statue'
-    },
-    {
-      id: 8,
-      name: 'Feng Shui Crystal Globe',
-      category: 'Decor',
-      price: 'View on Flipkart',
-      rating: 4.7,
-      image: '/images/15-10-feng-shui-crystal-globe-with-golden-stand.webp',
-      flipkartLink: 'https://fktr.in/Ve0eBWS',
-      description: 'Beautiful feng shui crystal globe with golden stand'
-    },
-    {
-      id: 9,
-      name: '3D Dolphin Moon Crystal Ball Lamp',
-      category: 'Lighting',
-      price: 'View on Flipkart',
-      rating: 4.9,
-      image: '/images/7-8-new-lamp-dolphin-moon-spiricon-7.webp',
-      flipkartLink: 'https://fktr.in/YQ8RBgu',
-      description: 'Magical 3D dolphin moon galaxy crystal ball lamp with LED light'
+      categoryName: 'Ambient Lighting',
+      categoryId: 'lighting',
+      products: [
+        {
+          id: 9,
+          name: '3D Dolphin Moon Crystal Ball Lamp',
+          price: 'Under ₹2500',
+          rating: 4.9,
+          image: '/images/7-8-new-lamp-dolphin-moon-spiricon-7.webp',
+          flipkartLink: 'https://fktr.in/YQ8RBgu',
+          description: 'Transform your room with magical, ambient lighting. This 3D dolphin-moon lamp instantly creates a cozy, enchanting atmosphere perfect for winding down. Works as night light, decor, and mood setter. A must-have for aesthetic homes.'
+        }
+      ]
     }
   ];
 
   return (
     <section className="products" id="products">
-      <div className="container">
-        <h2 className="section-title">Featured Products</h2>
-        <div className="products-grid">
-          {products.map((product) => (
-            <div key={product.id} className="product-card">
-              <img src={product.image} alt={product.name} className="product-image" />
-              <div className="product-info">
-                <h3 className="product-name">{product.name}</h3>
-                <p className="product-category">{product.category}</p>
-                <p className="product-description">{product.description}</p>
-                <div className="product-rating">
-                  <span className="rating-value">⭐ {product.rating}</span>
+      {categories.map((category) => (
+        <div key={category.categoryId} className="category-section">
+          <div className="container">
+            <h2 className="category-title">{category.categoryName}</h2>
+            <div className="products-grid">
+              {category.products.map((product) => (
+                <div key={product.id} className="product-card">
+                  <img src={product.image} alt={product.name} className="product-image" />
+                  <div className="product-info">
+                    <h3 className="product-name">{product.name}</h3>
+                    <p className="product-description">{product.description}</p>
+                    <div className="product-meta">
+                      <span className="product-price">{product.price}</span>
+                      <span className="rating-value">⭐ {product.rating}</span>
+                    </div>
+                    <a 
+                      href={product.flipkartLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flipkart-btn"
+                    >
+                      Check Price on Flipkart
+                    </a>
+                    <p className="affiliate-disclosure">Prices & availability may change. Affiliate link.</p>
+                  </div>
                 </div>
-                <p className="product-price">{product.price}</p>
-                <a 
-                  href={product.flipkartLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flipkart-btn"
-                >
-                  Get Now
-                </a>
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
-      </div>
+      ))}
     </section>
   );
 }
