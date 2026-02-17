@@ -50,7 +50,7 @@ function Products() {
       price: 'View on Flipkart',
       rating: 4.5,
       image: '/images/large-butterfly-3d-metal-stickers.webp',
-      flipkartLink: 'https://fktr.in/TkuwdDD',
+      flipkartLink: 'https://fktr.in/Tx80Ei6',
       description: 'Large 3D butterfly metal wall stickers'
     },
     {
