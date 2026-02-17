@@ -1,0 +1,84 @@
+:root {
+    --primary-gold: #c9a961;
+    --light-gold: #e8d4a8;
+    --very-light-gold: #f0e5d3;
+    --cream: #f5f1e8;
+    --cream-light: #faf7f0;
+    --dark-text: #1f1f1f;
+    --light-text: #6d6d6d;
+    --white: #ffffff;
+    --border-light: #e0d5c7;
+    --border-lighter: #ede7dd;
+    --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-hover: 0 16px 40px rgba(201, 169, 97, 0.2);
+    --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-text);
+    background-color: var(--cream);
+    line-height: 1.8;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.8px;
+    color: var(--dark-text);
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    color: var(--light-text);
+}
+
+a {
+    color: var(--primary-gold);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+p {
+    color: var(--light-text);
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--primary-gold);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--dark-text);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

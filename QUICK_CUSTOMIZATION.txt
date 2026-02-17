@@ -1,0 +1,162 @@
+================================================================================
+        PinsByAish - QUICK CUSTOMIZATION CHECKLIST
+================================================================================
+
+🎯 DO THIS FIRST: Add Your Product Images
+
+Location: d:\Flipkart\assets\images\
+
+Save your 6 product images as:
+  ☐ product1.jpg
+  ☐ product2.jpg
+  ☐ product3.jpg
+  ☐ product4.jpg
+  ☐ product5.jpg
+  ☐ product6.jpg
+
+Image Requirements:
+  ✓ Format: JPG, PNG, or WebP
+  ✓ Ideal Size: 400x300px (or any similar ratio)
+  ✓ Quality: High resolution, well-lit
+  ✓ Style: Showcase the product clearly
+
+================================================================================
+
+🔗 STEP 2: Update Product Links & Details in index.html
+
+Open: d:\Flipkart\index.html
+
+Find all 6 product cards and update:
+
+PRODUCT CARD 1 (First Product):
+─────────────────────────────────
+Location: Around line 135-160
+
+OLD:  <img src="./assets/images/product1.jpg" alt="Product Name">
+NEW:  <img src="./assets/images/YOUR_IMAGE_NAME.jpg" alt="Your Product Name">
+
+OLD:  <h3>Product Name</h3>
+NEW:  <h3>Your Living Room Product</h3>
+
+OLD:  <p class="product-description">Elegant living room furniture...</p>
+NEW:  <p class="product-description">Your product description here</p>
+
+OLD:  <span>✓ Feature 1</span>
+      <span>✓ Feature 2</span>
+      <span>✓ Feature 3</span>
+NEW:  <span>✓ Your Benefit 1</span>
+      <span>✓ Your Benefit 2</span>
+      <span>✓ Your Benefit 3</span>
+
+OLD:  <a href="#" class="price-button">Check Price on Flipkart</a>
+NEW:  <a href="https://fktr.in/YOUR_AFFILIATE_CODE" class="price-button">Check Price on Flipkart</a>
+
+🔑 IMPORTANT: 
+   Replace "YOUR_AFFILIATE_CODE" with your actual Flipkart short URL
+   Example: https://fktr.in/abc123def456
+
+REPEAT THIS FOR ALL 6 PRODUCTS (cards 2-6)
+
+================================================================================
+
+📝 STEP 3: Customize About & Contact Info
+
+Open: d:\Flipkart\pages\about.html
+
+Update:
+  ☐ Your name/brand name
+  ☐ Your story (in "Our Story" section)
+  ☐ Your mission
+  ☐ Contact email
+
+================================================================================
+
+🌐 STEP 4: Add Your Social Media Links
+
+Open: d:\Flipkart\index.html
+Find: Footer section (bottom of page)
+
+Update:
+  ☐ Pinterest link: Replace # with your Pinterest profile URL
+  ☐ Instagram link: Replace # with your Instagram profile URL
+
+Location in footer:
+  <a href="YOUR_PINTEREST_URL" class="social-icon">📌 Pinterest</a>
+  <a href="YOUR_INSTAGRAM_URL" class="social-icon">📷 Instagram</a>
+
+================================================================================
+
+✅ BEFORE YOU LAUNCH - FINAL CHECKLIST:
+
+Website Content:
+  ☐ All 6 product images added to assets/images/
+  ☐ All 6 product titles updated
+  ☐ All 6 product descriptions added
+  ☐ All 6 product benefits/features listed
+  ☐ All 6 Flipkart affiliate links added
+  ☐ About page customized with your info
+  ☐ Social media links updated
+
+Design:
+  ☐ Gold & white color scheme looks good (no CSS changes needed)
+  ☐ Images display properly
+  ☐ Buttons are clickable (test on desktop & mobile)
+  ☐ Navigation works
+  ☐ Page layout is clean
+
+Testing:
+  ☐ Tested on desktop (view index.html in browser)
+  ☐ Tested on mobile (responsive at 480px, 768px)
+  ☐ All links work correctly
+  ☐ Affiliate disclaimer visible in footer
+
+Ready to Deploy:
+  ☐ Files organized correctly in d:\Flipkart\
+  ☐ No broken image links
+  ☐ All affiliate links are working
+  ☐ Ready to upload to hosting
+
+================================================================================
+
+🚀 LAUNCH SEQUENCE:
+
+1. Complete all customization above ✓
+2. Test website locally (open index.html in browser)
+3. Choose hosting provider (Hostinger, Bluehost, Vercel, Netlify)
+4. Upload d:\Flipkart\ folder to hosting
+5. Point your domain to hosting
+6. Set up SSL certificate (HTTPS)
+7. Set up Google Analytics
+8. Start promoting on Pinterest!
+
+================================================================================
+
+📞 NEED REFERENCE?
+
+Quick answers to common questions:
+
+Q: Where do I put product images?
+A: d:\Flipkart\assets\images\
+
+Q: Where do I add affiliate links?
+A: In index.html, in each product card's <a href=""> tag
+
+Q: Where's the affiliate disclaimer?
+A: In the footer (visible on every page) and pages/disclaimer.html
+
+Q: Can I change the gold and white colors?
+A: Yes! Edit d:\Flipkart\assets\css\style.css - look for :root variables
+
+Q: How do I test locally?
+A: Open d:\Flipkart\index.html in your web browser
+
+Q: Is the website mobile-friendly?
+A: Yes! It's responsive at all screen sizes
+
+Q: Where's the privacy policy?
+A: d:\Flipkart\pages\privacy.html
+
+================================================================================
+
+You're all set! Start by adding your images. 🎨
+
